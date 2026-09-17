@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="DM68-Visuals — Photographe en Alsace. Mariage, baptême, véhicules, événements, portraits et projets sur mesure.">
+<meta name="theme-color" content="#090909">
+<title>DM68-Visuals — Photographe en Alsace</title>
+<style>
+:root{--bg:#090909;--panel:#111;--text:#f4f1eb;--muted:#aaa;--gold:#d2ad78;--line:#292929}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}
+a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 24px}
+header{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(9,9,9,.78);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}.brand img{width:190px;height:auto}.links{display:flex;gap:28px;font-size:14px;color:#ddd}.links a:hover{color:var(--gold)}
+.menu{display:none;border:1px solid var(--line);background:none;color:white;padding:9px 12px}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:
+linear-gradient(90deg,rgba(0,0,0,.94),rgba(0,0,0,.48),rgba(0,0,0,.72)),
+radial-gradient(circle at 72% 38%,#59472f 0,#1a1714 24%,#090909 68%)}
+.hero:after{content:"";position:absolute;inset:auto -10% -40% 45%;height:80%;background:radial-gradient(ellipse,#2b241b,transparent 65%);opacity:.7}
+.hero-content{position:relative;z-index:2;max-width:760px;padding-top:75px}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:5px;font-size:12px;font-weight:700}
+h1{font-size:clamp(55px,10vw,110px);line-height:.92;letter-spacing:-5px;margin:18px 0 24px}.hero h1 span{display:block;font-size:.31em;letter-spacing:8px;color:#bbb;margin-top:18px}
+.hero p{font-size:21px;color:#ddd;max-width:610px;margin:0 0 32px}.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 23px;border:1px solid var(--gold);display:inline-block;font-weight:700}.btn.primary{background:var(--gold);color:#0a0a0a}.btn:hover{transform:translateY(-2px)}
+section{padding:110px 0}.section-head{max-width:720px;margin-bottom:42px}.section-head h2{font-size:45px;line-height:1.05;margin:12px 0}.section-head p{color:var(--muted)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.portrait{min-height:470px;border:1px solid var(--line);background:linear-gradient(135deg,#1c1c1c,#0e0e0e);display:grid;place-items:center;color:#555;letter-spacing:2px}.about-copy p{color:#c7c7c7}.signature{font-family:Georgia,serif;font-style:italic;color:var(--gold);font-size:30px;margin-top:24px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{position:relative;min-height:360px;border:1px solid var(--line);overflow:hidden;background:linear-gradient(145deg,#242424,#0e0e0e);display:flex;align-items:flex-end}.card:before{content:"PHOTO À AJOUTER";position:absolute;inset:0;display:grid;place-items:center;color:#555;font-size:11px;letter-spacing:3px}.card .caption{position:relative;z-index:1;padding:18px;width:100%;background:linear-gradient(transparent,rgba(0,0,0,.9));font-size:20px}.card small{display:block;color:#aaa;font-size:12px;margin-top:4px}
+.services{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.service{border:1px solid var(--line);padding:25px 20px;min-height:170px}.service .num{color:var(--gold);font-size:12px;letter-spacing:2px}.service h3{margin:12px 0 7px}.service p{color:#999;font-size:14px}
+.contact{border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}.contact .section-head{margin:0 auto 28px}.social{color:var(--gold);font-weight:700}
+footer{padding:32px 0;color:#777;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.links{display:none}.menu{display:block}.about{grid-template-columns:1fr;gap:35px}.grid{grid-template-columns:repeat(2,1fr)}.services{grid-template-columns:repeat(2,1fr)}.brand img{width:155px}}
+@media(max-width:520px){.wrap{padding:0 18px}.hero h1{letter-spacing:-3px}.hero p{font-size:18px}.grid,.services{grid-template-columns:1fr}.portrait{min-height:320px}section{padding:78px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#accueil"><img src="logo.svg" alt="DM68-Visuals Photographie Alsace"></a>
+  <nav class="links">
+    <a href="#apropos">À propos</a><a href="#portfolio">Portfolio</a><a href="#prestations">Prestations</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="menu" aria-label="Menu">☰</button>
+</div></header>
+
+<main>
+<section class="hero" id="accueil"><div class="wrap"><div class="hero-content">
+  <div class="eyebrow">Photographe · Alsace</div>
+  <h1>DM68-Visuals<span>PHOTOGRAPHIE</span></h1>
+  <p>Des moments uniques. Des images qui restent.</p>
+  <div class="buttons"><a class="btn primary" href="#contact">Me contacter</a><a class="btn" href="#portfolio">Découvrir le portfolio</a></div>
+</div></div></section>
+
+<section id="apropos"><div class="wrap about">
+  <div class="portrait">TA PHOTO DE PRÉSENTATION</div>
+  <div class="about-copy"><div class="eyebrow">À propos de moi</div><h2 class="section-head" style="margin:12px 0">Dorian, photographe passionné basé en Alsace.</h2>
+    <p>À travers <strong>DM68-Visuals</strong>, je capture les moments qui comptent : mariages, baptêmes, événements, véhicules, portraits et projets personnels.</p>
+    <p>Une approche naturelle, soignée et centrée sur les émotions, les détails et les souvenirs que vous aurez plaisir à retrouver.</p>
+    <div class="signature">Dorian</div>
+  </div>
+</div></section>
+
+<section id="portfolio"><div class="wrap"><div class="section-head"><div class="eyebrow">Mon univers</div><h2>Portfolio</h2><p>Remplace les six emplacements par tes propres photos. Tu peux aussi créer une galerie par catégorie.</p></div>
+<div class="grid">
+  <a class="card" href="#contact"><div class="caption">Mariage<small>Émotions · détails · souvenirs</small></div></a>
+  <a class="card" href="#contact"><div class="caption">Baptême<small>Une journée à conserver</small></div></a>
+  <a class="card" href="#contact"><div class="caption">Véhicules<small>Car culture · détails · mise en valeur</small></div></a>
+  <a class="card" href="#contact"><div class="caption">Événements<small>Moments forts et ambiance</small></div></a>
+  <a class="card" href="#contact"><div class="caption">Portrait<small>Individuel · couple · famille</small></div></a>
+  <a class="card" href="#contact"><div class="caption">Autres projets<small>Créons quelque chose d'unique</small></div></a>
+</div></div></section>
+
+<section id="prestations"><div class="wrap"><div class="section-head"><div class="eyebrow">Prestations</div><h2>Des images pour chaque histoire.</h2><p>Les formules et tarifs peuvent être ajoutés ici plus tard.</p></div>
+<div class="services">
+  <div class="service"><div class="num">01</div><h3>Mariage</h3><p>Des préparatifs aux moments forts de votre journée.</p></div>
+  <div class="service"><div class="num">02</div><h3>Baptême</h3><p>Des souvenirs naturels et intemporels.</p></div>
+  <div class="service"><div class="num">03</div><h3>Véhicules</h3><p>Valoriser votre voiture avec des images fortes.</p></div>
+  <div class="service"><div class="num">04</div><h3>Événements</h3><p>Couverture photo privée ou professionnelle.</p></div>
+  <div class="service"><div class="num">05</div><h3>Portrait</h3><p>Seul, en couple, en famille ou pour un projet.</p></div>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="wrap"><div class="section-head">
+  <div class="eyebrow">Parlons de votre projet</div><h2>Un projet photo ?</h2><p>Pour une demande, une disponibilité ou simplement une question, contacte-moi sur Instagram.</p>
+</div>
+<a class="btn primary" href="https://www.instagram.com/DM68_Visuals/" target="_blank" rel="noopener">Instagram · @DM68_Visuals</a>
+</div></section>
+</main>
+
+<footer><div class="wrap foot"><div>© 2026 DM68-Visuals · Photographie en Alsace</div><div>Instagram : @DM68_Visuals</div></div></footer>
+</body>
+</html>

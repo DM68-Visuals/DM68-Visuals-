@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260">
+  <rect width="900" height="260" fill="transparent"/>
+  <g transform="translate(20,20)" fill="none" stroke="#d2ad78" stroke-width="7">
+    <path d="M150 10 A105 105 0 1 0 252 128"/>
+  </g>
+  <g transform="translate(55,45)" fill="#f5f2eb" stroke="#f5f2eb">
+    <path d="M0 0h62c49 0 76 25 76 66s-27 66-76 66H0zm35 29v74h26c28 0 42-12 42-37S89 29 61 29z" stroke="none"/>
+    <path d="M132 132V0h33l57 76V0h34v132h-32l-58-78v78z" stroke="none"/>
+    <circle cx="57" cy="66" r="22" fill="none" stroke="#d2ad78" stroke-width="8"/>
+    <path d="M39 55l36 22M39 77l36-22" fill="none" stroke="#d2ad78" stroke-width="5"/>
+  </g>
+  <text x="350" y="112" fill="#f5f2eb" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="700" letter-spacing="8">DM68-VISUALS</text>
+  <text x="354" y="153" fill="#aaa" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="8">PHOTOGRAPHIE</text>
+  <line x1="355" y1="182" x2="450" y2="182" stroke="#d2ad78" stroke-width="4"/>
+  <text x="470" y="194" fill="#d2ad78" font-family="Georgia,serif" font-size="35" font-style="italic">Alsace</text>
+  <line x1="625" y1="182" x2="720" y2="182" stroke="#d2ad78" stroke-width="4"/>
+</svg>
